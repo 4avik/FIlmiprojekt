@@ -9,12 +9,6 @@
     gap: 50px;
 }
 
-img {
-    display: flex;
-    justify-content: ;
-
-}
-
 .navbar {
     list-style-type: none;
     display: flex;
@@ -33,7 +27,8 @@ a {
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 60px */
+    line-height: 150%;
+    /* 60px */
 
 }
 
@@ -47,6 +42,58 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 a:hover {
     font-weight: bolder;
-  }
+}
+
+h1 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 58px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+}
+
+div.relative {
+    position: relative;
+    bottom: 2px;
+    border: 3px solid #73AD21;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    top: 90vh;
+    transform: translateY(-100%);
+    width: 100%;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+.title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 30vh;
+    background-color: rgba(0, 0, 0, 0.283);
+    padding: 0px 20px 0px 20px;
+    
+}
+
+h2 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 100;
+}
+
