@@ -104,3 +104,11 @@ h2 {
     align-items: normal;
 }
 
+@media screen and (max-width: 900px) {
+    h2{
+        color: green;
+    }
+    a{
+        color: green;
+    }
+}
