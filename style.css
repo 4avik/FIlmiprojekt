@@ -96,4 +96,11 @@ h2 {
     font-style: normal;
     font-weight: 100;
 }
+.changepage {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: normal;
+}
 
