@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid-container {
+    gap: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: MedievalSharp;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+}
+
+body {
+    background: url(shrek.png) no-repeat center center fixed;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;  
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+.navbar .selectedb {
+    font-weight: 900;
+}
+
+h1 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 58px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+}
+
+div.relative {
+    position: relative;
+    bottom: 2px;
+    border: 3px solid #73AD21;
+}
+
+.titleg {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: flex-end;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 100px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+.divider1 {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.desc {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 100;
+}
+.changepage {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: normal;
+}
+
+.menub1 {
+    display: none;
+}
+
+.title1 {
+    font-size: 4vw;
+    border-radius: 50px;
+}
+
+.logo1 {
+    display: flex;
+    margin-left: 60px;
+    width: 30vw;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .desc {
+        font-size: 15px;
+    }
+    .logo1 {
+        width: 40vw;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .desc {
+        font-size: 12px;
+    }
+    body {
+        background: url(shrekvert.png) no-repeat center center fixed;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;         
+    }
+    .title {
+        padding: 30px;
+    }
+    .logo1 {
+        width: 50vw;
+        height: auto;
+        align-self: center;
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .navbar a {
+        display: none;
+    }
+    .title {
+        padding: 20px;
+    }
+    .desc {
+        font-size: 12px;
+    }
+    .navbar {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menub1 {
+        display: block;
+        max-height: 5vw;
+        max-width: 5vw;
+        cursor: pointer;
+    }
+  }
