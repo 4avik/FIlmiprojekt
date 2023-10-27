@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid-container {
+    gap: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: MedievalSharp;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+    /* 60px */
+
+}
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+}
+
+body {
+    background: url(shrek.png), rgb(0, 0, 0) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 58px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+}
+
+div.relative {
+    position: relative;
+    bottom: 2px;
+    border: 3px solid #73AD21;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 100px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+.title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.283);
+    padding: 0px 20px 0px 20px;
+
+}
+
+h2 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.changepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.items {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 2vh;
+    }
+
+    a {
+        font-size: 2vh;
+    }
+
+    body {
+        background: url(../shrekchapel.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        /* For WebKit*/
+        -moz-background-size: cover;
+        /* Mozilla*/
+        -o-background-size: cover;
+        /* Opera*/
+        background-size: cover;
+
+    }
+
+    .title2 {
+        margin-top: 65%;
+    }
+}

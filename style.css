@@ -1,7 +1,11 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+    text-decoration: none;
+    user-select: none;
 }
 
 
@@ -37,11 +41,17 @@
 }
 
 body {
-    background: url(shrek.png) no-repeat center center fixed;
-        -webkit-background-size: cover; /* For WebKit*/
-        -moz-background-size: cover;    /* Mozilla*/
-        -o-background-size: cover;      /* Opera*/
-        background-size: cover;  
+    background: url(images/shrek.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 a:hover {
@@ -127,7 +137,108 @@ h2 {
     height: auto;
 }
 
+.nav {
+    display: flex;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.nav a {
+    color: white;
+    font-size:3vw;
+}
+
+.nav a:hover {
+    font-weight: 900;
+}
+
+.nav .phonemenubutton {
+    display: none;
+}
+
+.collapsablemenu {
+    display: none;
+}
+
+.collapsablemenu a {
+    display: none;
+}
+
+.selectedb {
+    font-weight: 900;
+}
+
+.items {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.changepage {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.changepage a {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+    color: white;
+    font-size: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: MedievalSharp;
+    font-size: 58px;
+    text-align: center;
+    line-height: 150%;
+    font-style: normal;
+}
+
+div.relative {
+    position: relative;
+    bottom: 2px;
+    border: 3px solid #73AD21;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 100px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+.desc {
+    font-size: 1rem;
+}
+
+.title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.283);
+    padding: 0px 20px 0px 20px;
+}
 
 
 
@@ -150,7 +261,7 @@ h2 {
         font-size: 12px;
     }
     body {
-        background: url(shrekvert.png) no-repeat center center fixed;
+        background: url(images/shrekvert.png) no-repeat center center fixed;
         -webkit-background-size: cover; /* For WebKit*/
         -moz-background-size: cover;    /* Mozilla*/
         -o-background-size: cover;      /* Opera*/
@@ -189,5 +300,42 @@ h2 {
         max-height: 5vw;
         max-width: 5vw;
         cursor: pointer;
+    }
+    .nav a {
+        display: none;
+    }
+    .collapsablemenu a {
+        display: flex;
+        font-size: 40px;
+    }
+    .nav{
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav .phonemenubutton {
+        display: flex;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .collapsablemenu {
+        display: none;
+        width: 100vw;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .collapsablemenu a {
+        text-align: center;
+        display: block;
+        margin: 10px;
+        margin-top: 0px;
+    }
+    .div1 {
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
     }
   }
