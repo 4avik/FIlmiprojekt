@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.icon1 {
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: MedievalSharp;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}   
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+}
+
+h1 {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+}
+
+.navbar a:hover {
+    font-weight: bolder;
+}
+
+.navbar .selectedb {
+    font-weight: 900;
+}
+
+.creditsbg {
+    background-image: url("/157908.jpg");
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+     width: 100vw;
+     height: auto;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 3vw;
+     padding-left: 6vw;
+     padding-right: 6vw;
+     flex-direction: column;
+}
+
+.info h1 {
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 30px;
+}
+
+.info h2 {
+    color: lightgray;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.music {
+    background-image: url("/OIP.jpg");
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.musicdivider {
+    width: 100vw;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.musicdivider h1 {
+    color: white;
+    font-size: 4vw;
+}
+
+.video {
+    border-radius: 50px;
+ }
+
+ .video2 {
+    border-radius: 50px;
+ }
+
+ .vidos {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    padding: 5vw;
+    gap: 5vw;
+ }
+
+ #video {
+    width: 42.5vw;
+    height: auto;
+ }
+
+ .actors {
+    background: url(pic21.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;  
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.donkeyimg {
+    width: 42.5vw;
+    height: auto;
+}
+
+.voiceactorsdiv {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.imgs {
+    padding: 3vw;
+}
+
+.texts {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+}
+
+.texts p {
+    font-family: MedievalSharp;
+    src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Sometype+Mono&display=swap");
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .icon1 {
+        display: block;
+        max-height: 5vw;
+        max-width: 5vw;
+    }
+
+  }
