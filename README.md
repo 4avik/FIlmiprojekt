@@ -1,7 +1,19 @@
 # FIlmiprojekt - Shrek 1
 
-* Suhtluskanal: Slack
+## Selle projekti eesmärk
+Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, viia neid kurssi erinevate tarkvaraprojektides kasutatavate veebilehtede ja rakendustega ning õpetada neile kuidas neid kasutada. 
+
+## Töövahendite loetelu:
+### Projektis kasutatud töövahendid:
+* Ruumis olev tahvel, GitHub, Figma, VsCode
+
+## Valitud suhtluskanal
+* [Slack](https://slack.com/)
+
+## 📓 Projektiga seonduvad lingid
 * [Figma projekt](https://www.figma.com/file/6L20v2GF4Jryiq4jq6BUZU/Shrek?type=design&node-id=0%3A1&mode=design&t=Dx9mScoxs4hwG4Iq-1)
+* [Töö laivis](#)
+
 
 ### PROJEKTI LIIKMED:
 
@@ -50,4 +62,94 @@ Tööprotsessi planeerimist illustreeriv pilt tahvlist
 27.10.23
 --
 * Viimased viimistlused 
+
+
+**TIIMI TAGASISIDE**
+
+**Küsimused:**
+1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides?
+
+
+2. Üks pehme oskus, mida õppisin ja endas arendasin.
+
+
+3. Üks tehniline oskus, mida õppisin ja endas arendasin.
+
+---
+
+
+
+
+☆ **TAK - 23** ☆
+- Silvio Tsurkan
+
+★ **TAK - 21** ★
+- Kristo Tänak
+- Anni Aavik
+
+
+★ **TA - 23** ★
+
+**Kristo Lember**
+
+1. VASTUS
+
+
+2. VASTUS
+
+
+3. VASTUS
+
+★
+
+**NIMI**
+
+1. VASTUS
+
+2. VASTUS
+
+3. VASTUS
+
+☆
+
+**NIMI**
+
+1. VASTUS
+ 
+2. VASTUS
+
+3. VASTUS
+
+★
+
+**NIMI**
+
+1. VASTUS
+ 
+2. VASTUS
+
+3. VASTUS
+
+☆
+
+**NIMI**
+
+1. VASTUS
+
+2. VASTUS
+
+3. VASTUS
+
+★
+
+**NIMI**
+
+1. VASTUS
+ 
+2. VASTUS
+
+3. VASTUS
+
+☆
+
 
