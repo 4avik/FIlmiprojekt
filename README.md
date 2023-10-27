@@ -39,28 +39,6 @@ Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, v
 * Zone üleslaadimine
 * Mobiilne vaade!
 
-### TÖÖPROTSESS
-
-**25.10.23**
-* Alustasime Figma tegemisega, peamiselt tegeles disainiga Silvio, kuid juhendasime ka K. Lemberit, kellel oli juba natukene varasemalt kogemust sellega Figma kasutamise osas.
-
-**26.10.23**
-* Alustasime HTMLi ja CSSi kirjutamisega, esialgu tegeles sellega peamiselt Kristo L. kuid hiljem juhendasime me ka Silviot koodi kirjutamise osas.
-* Tegime esmakursuslastele selgeks, kuidas GitHubi branchid töötavad, kuidas enda branch teha ja miks need vajalikud on.
-* Jõudsime koodiga nii kaugele, et meil oli basic dropdown menu olemas ja lehed on enam-vähem funktsionaalsed.
-
-**Tööprotsessi planeerimist illustreeriv pilt tahvlist**
-![image](https://github.com/4avik/FIlmiprojekt/assets/91154227/cf3aad99-a840-49e8-aed3-7f8788767329)
-
-
-**27.10.23**
-* Viimased viimistlused, branchide mergimine, projekti zone'i üles panemine ja speedtesti tegemine
-
-Speedtesti tulemused:
-- [Mobile](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=mobile)
-- [Desktop](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=desktop)
-
-
 ---
 **TIIMI TAGASISIDE**
 
@@ -98,7 +76,7 @@ Speedtesti tulemused:
 
 2. Kui mul midagi ei tööta, mul läheb kauem aega vea otsimeseks ja lahedamiseks, selle asemel, et küsida grupikaaslastelt abi
 
-3. Kui mul on video HTML'is ja ma tahan muuta suurust jne... ma ei kasuta ```' "Class ="name" '``` vaid ma kasutan ```' "id="name" '```
+3. Kui mul on video HTML'is ja ma tahan muuta suurust jne... ma ei kasuta ```"Class ="name"``` vaid ma kasutan ```"id="name"```
 
 ☆
 
@@ -124,4 +102,24 @@ Speedtesti tulemused:
 ☆
 
 
+### TÖÖPROTSESS
+
+**25.10.23**
+* Alustasime Figma tegemisega, peamiselt tegeles disainiga Silvio, kuid juhendasime ka K. Lemberit, kellel oli juba natukene varasemalt kogemust sellega Figma kasutamise osas.
+
+**26.10.23**
+* Alustasime HTMLi ja CSSi kirjutamisega, esialgu tegeles sellega peamiselt Kristo L. kuid hiljem juhendasime me ka Silviot koodi kirjutamise osas.
+* Tegime esmakursuslastele selgeks, kuidas GitHubi branchid töötavad, kuidas enda branch teha ja miks need vajalikud on.
+* Jõudsime koodiga nii kaugele, et meil oli basic dropdown menu olemas ja lehed on enam-vähem funktsionaalsed.
+
+**Tööprotsessi planeerimist illustreeriv pilt tahvlist**
+![image](https://github.com/4avik/FIlmiprojekt/assets/91154227/cf3aad99-a840-49e8-aed3-7f8788767329)
+
+
+**27.10.23**
+* Viimased viimistlused, branchide mergimine, projekti zone'i üles panemine ja speedtesti tegemine
+
+Speedtesti tulemused:
+- [Mobile](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=mobile)
+- [Desktop](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=desktop)
 
