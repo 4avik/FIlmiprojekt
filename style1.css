@@ -410,7 +410,16 @@ div.relative {
 }
 
 
+@media only screen and (max-width: 500px) {
+    .video {
+        border-radius: 0px;
+     }
 
+     
+    .video2 {
+        border-radius: 0px;
+     }
+  }
 
 
 
