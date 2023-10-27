@@ -54,7 +54,11 @@ Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, v
 
 
 **27.10.23**
-* Viimased viimistlused, branchide mergimine, projekti zone'i üles panemine ja 
+* Viimased viimistlused, branchide mergimine, projekti zone'i üles panemine ja speedtesti tegemine
+
+Speedtesti tulemused:
+- [Mobile](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=mobile)
+- [Desktop](https://pagespeed.web.dev/analysis/https-tak21aavik-itmajakas-ee-Filmiprojekt_SHREK-index-html/wbgsrdwr3l?form_factor=desktop)
 
 
 ---
