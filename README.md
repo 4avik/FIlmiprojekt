@@ -1,4 +1,4 @@
-# FIlmiprojekt - Shrek 1
+# Filmiprojekt - Shrek 1
 
 ## Selle projekti eesmärk
 Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, viia neid kurssi erinevate tarkvaraprojektides kasutatavate veebilehtede ja rakendustega ning õpetada neile kuidas neid kasutada. 
@@ -12,7 +12,7 @@ Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, v
 
 ## 📓 Projektiga seonduvad lingid
 * [Figma projekt](https://www.figma.com/file/6L20v2GF4Jryiq4jq6BUZU/Shrek?type=design&node-id=0%3A1&mode=design&t=Dx9mScoxs4hwG4Iq-1)
-* [Töö laivis](#)
+* [Töö laivis](https://tak21aavik.itmajakas.ee/Filmiprojekt_SHREK/credits.html)
 
 
 ### PROJEKTI LIIKMED:
@@ -29,12 +29,7 @@ Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, v
 - Anni Aavik
   
 
-👉👉 👉Project Manager: NAME
-👉👉 👉Team Memebers: NAME
-👉👉 👉 Designer: NAME
-
-
-### TÖÖ EESMÄRK JA REEGLID/TINGIMUSED:
+### TÖÖ REEGLID/TINGIMUSED:
 * Koostada Veebileht vabalt valitud filmi kohta. Välja tuua erinevatel lehtedel filmi eri aspektid.
 * Figma
 * Speed test teha lehele ( https://pagespeed.web.dev/analysis/https-flowershower-ee/4ww9esj6me?form_factor=desktop )
@@ -44,26 +39,25 @@ Selle projekti peamine eesmärk on esmakursuslastele tutvustada HTMLi ja CSSi, v
 * Zone üleslaadimine
 * Mobiilne vaade!
 
-25.10.23
---
+### TÖÖPROTSESS
+
+**25.10.23**
 * Alustasime Figma tegemisega, peamiselt tegeles disainiga Silvio, kuid juhendasime ka K. Lemberit, kellel oli juba natukene varasemalt kogemust sellega Figma kasutamise osas.
 
-26.10.23
---
+**26.10.23**
 * Alustasime HTMLi ja CSSi kirjutamisega, esialgu tegeles sellega peamiselt Kristo L. kuid hiljem juhendasime me ka Silviot koodi kirjutamise osas.
 * Tegime esmakursuslastele selgeks, kuidas GitHubi branchid töötavad, kuidas enda branch teha ja miks need vajalikud on.
 * Jõudsime koodiga nii kaugele, et meil oli basic dropdown menu olemas ja lehed on enam-vähem funktsionaalsed.
 
-Tööprotsessi planeerimist illustreeriv pilt tahvlist
---
+**Tööprotsessi planeerimist illustreeriv pilt tahvlist**
 ![image](https://github.com/4avik/FIlmiprojekt/assets/91154227/cf3aad99-a840-49e8-aed3-7f8788767329)
 
 
-27.10.23
---
-* Viimased viimistlused 
+**27.10.23**
+* Viimased viimistlused, branchide mergimine, projekti zone'i üles panemine ja 
 
 
+---
 **TIIMI TAGASISIDE**
 
 **Küsimused:**
@@ -80,76 +74,50 @@ Tööprotsessi planeerimist illustreeriv pilt tahvlist
 
 
 
-☆ **TAK - 23** ☆
-- Silvio Tsurkan
-
-★ **TAK - 21** ★
-- Kristo Tänak
-- Anni Aavik
-
-
 ★ **TA - 23** ★
-
 **Kristo Lember**
 
-1. VASTUS
+1. Saan tulevastes projektides ehitada paremaid veebilehti (kui vaja)
 
 
-2. VASTUS
+2. Kindlasti see et kui mul on abi vaja ja internet ei anna mulle lahendusi siis julgen küsida teistelt grupikaaslastelt abi.
 
 
-3. VASTUS
-
-★
-
-**NIMI**
-
-1. VASTUS
-
-2. VASTUS
-
-3. VASTUS
-
-☆
-
-**NIMI**
-
-1. VASTUS
- 
-2. VASTUS
-
-3. VASTUS
+3. Nüüd oskan rohkem HTML-i ja CSS-i kasutada ning suudan üles ehitada paremaid veebilehti mis ei näe välja nagu need oleksid kinni aastas 2000.
 
 ★
 
-**NIMI**
+☆ **TAK - 23** ☆
+**Silvio Tsurkan**
 
-1. VASTUS
- 
-2. VASTUS
+1. Õppin kasutada figmad paremini, et järgmistes projektites kasutaks vähem näidiseid ja töö oleks kreatiivsem
 
-3. VASTUS
+2. Kui mul midagi ei tööta, mul läheb kauem aega vea otsimeseks ja lahedamiseks, selle asemel, et küsida grupikaaslastelt abi
+
+3. Kui mul on video HTML'is ja ma tahan muuta suurust jne... ma ei kasuta ```' "Class ="name" '``` vaid ma kasutan ```' "id="name" '```
 
 ☆
 
-**NIMI**
+★ **TAK - 21** ★
+**Kristo Tänak**
 
-1. VASTUS
+1. Kasutan kindlasti kõike mida õppisin enda tulevikus.
+ 
+2. Õppisin nooremaid õpetama, arendasin ka vajalikke tiimi juhendamise oskuseid.
 
-2. VASTUS
-
-3. VASTUS
+3. Meenutasin juba üpitud asju ja õppisin paljutki juurde ka
 
 ★
 
-**NIMI**
+**Anni Aavik**
 
-1. VASTUS
+1. Igati kuis võimalik
  
-2. VASTUS
+2. Õpetamine ja planeerimine ning tiimikaaslastega suhtlemine. 
 
-3. VASTUS
+3. Sain meenutada CSSi ja HTMLi
 
 ☆
+
 
 
