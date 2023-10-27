@@ -28,6 +28,7 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
+
     /* 60px */
 
 }
@@ -66,10 +67,9 @@ div.relative {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: absolute;
-    top: 90vh;
-    transform: translateY(-100%);
-    width: 100%;
+    padding: 100px;
+    padding-bottom: 0px;
+    height: 100%;
 }
 
 .desc {
@@ -80,11 +80,10 @@ div.relative {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 30vh;
+    margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.283);
     padding: 0px 20px 0px 20px;
-    
+
 }
 
 h2 {
@@ -96,19 +95,43 @@ h2 {
     font-style: normal;
     font-weight: 100;
 }
+
 .changepage {
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
     justify-content: center;
-    align-items: normal;
+}
+
+.items {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 900px) {
-    h2{
-        color: green;
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 2vh;
     }
-    a{
-        color: green;
+
+    a {
+        font-size: 2vh;
+    }
+
+    body {
+        background: url(../shrekchapel.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        /* For WebKit*/
+        -moz-background-size: cover;
+        /* Mozilla*/
+        -o-background-size: cover;
+        /* Opera*/
+        background-size: cover;
+
+    }
+
+    .title2 {
+        margin-top: 65%;
     }
 }
